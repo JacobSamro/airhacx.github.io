@@ -5,9 +5,12 @@ header nav{
 
 }
 header nav ul{
+    margin: 0;
 
+    list-style: none;
 }
 header nav ul li{
+    display: inline-block;
 
 }
 header nav ul li .logo{
@@ -22,7 +25,10 @@ section{
 }
 
 section.top-wrappper{
+    height: 800px;
 	
+    width: 100%;
+    background: linear-gradient(135deg, #22AD45 0%,#2DFAFE 100%);
 }
 section.intro{
 	
