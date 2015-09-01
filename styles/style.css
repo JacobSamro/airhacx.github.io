@@ -1,34 +1,55 @@
-body{
-
-}
 header nav{
-
+    position: absolute;
+    right: 60%;
+    margin: 0 -550px 0 0;
 }
 header nav ul{
-    margin: 0;
 
     list-style: none;
+    
+    
+    
 }
 header nav ul li{
     display: inline-block;
-
+    padding-top: 10px;
 }
-header nav ul li .logo{
-
+header nav ul li a{
+	 padding: 10px;
+	 text-decoration: none;
+	 font-family: 'Segoe UI',arial,sans-serif;
+	 font-weight: bold;
+	 color: #565656;
 }
-
-header nav ul li .link{
-	
+header div.logo{
+	background: url(../images/logo.png);
+	width: 300px;
+	height: 100px;
+	position: absolute;
+	background-size: contain;
 }
 section{
 
 }
 
 section.top-wrappper{
-    height: 800px;
-	
+    height: 550px;	
     width: 100%;
-    background: linear-gradient(135deg, #22AD45 0%,#2DFAFE 100%);
+    background: linear-gradient(135deg, #2dcafe 0%,#2DFAFE 100%);
+}
+
+section.top-wrappper img{
+
+}
+
+section.top-wrappper h2{
+    position: absolute;
+	
+    top: 66%;
+    color: #FFF;
+    font-family: 'Segoe UI',airal,sans-serif;
+    font-size: 35px;
+    right: 8%;
 }
 section.intro{
 	
@@ -39,6 +60,78 @@ section.content{
 section.team{
 	
 }
+
+
+/*Form */
+
 section.contact{
-	
+    width: 550px;
+    background-color: #f4f4f4;
+    height: 440px;
+    margin-left: 30%;
+    margin-top: 10px;
+    color:  #27EC06;
+    border-radius: 5px;
+}
+section.contact form{
+    width: 400px;
+    padding: 50px 50px 50px 50px;
+}
+section.contact input[type=text]{
+    margin-left: 7px;
+    height: 30px;
+    width: 340px;
+    border-radius: 0px;
+    border-style: none;
+}
+section.contact input[type=email]{
+    margin-left: 10px;
+    height: 30px;
+    width: 340px;
+    border-style: none;
+}
+section.contact textarea{
+    margin-left: 55px;
+    width: 337px;
+    color: black;
+    border-style: none;
+}
+section.contact input[type=submit]{
+    height: 50px;
+    width: 343px;
+    margin-left: 55px;
+    border-color: #7503C3;
+    border-radius: 0px;
+    border-width: 1px;
+    background-color: white;
+}
+section.contact input[type=submit]:hover{
+    background-color: #6924A9;
+    transition:all 1s;
+}
+section.contact #sm{
+    margin-left: 47%;
+    margin-top: 10px;
+}
+section.contact .fb{
+    width: 52px;
+    height: 52px;
+    border-radius: 30px;
+    background-color: #444;
+    transition:all 1s;
+}
+section.contact .fb:hover{
+	background-color: #27EC06;
+}
+section.contact .twitter{
+	margin-left: 10px;
+	width: 52px;
+    height: 52px;
+    border-radius: 30px;
+    background-color: #444;
+    transition:all 1s;
+}
+section.contact .twitter:hover{
+	-color: #FF5132;
+	background-color: #27EC06;
 }
