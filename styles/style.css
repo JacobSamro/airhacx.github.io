@@ -74,7 +74,6 @@ section.contact{
     border-radius: 5px;
 }
 section.contact form{
-	color: white;
     width: 400px;
     padding: 50px 50px 50px 50px;
 }
@@ -85,11 +84,16 @@ section.contact input[type=text]{
     border-radius: 0px;
     border-style: none;
 }
+section.contact form{
+
+}
 section.contact input[type=email]{
     margin-left: 10px;
     height: 30px;
     width: 340px;
     border-style: none;
+section.contact form{
+
 }
 section.contact textarea{
     margin-left: 55px;
