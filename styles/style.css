@@ -94,6 +94,9 @@ section.about .block img{
 section.about .block h2{
     
 }
+section.about .block p{
+    color: #656565;
+}
 section.team{
     background: linear-gradient(135deg, #12B0C7 0%,#71DDC5 100%);
     /*background: #f4f4f4;*/
