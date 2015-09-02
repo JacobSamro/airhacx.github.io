@@ -151,11 +151,26 @@ section.contact form{
 }
 section.contact input[type=text],section.contact input[type=email]{
     margin-left: 7px;
+<<<<<<< HEAD
+    height: 30px;
+    width: 340px;
+    border-radius: 0px;
+    border-style: none;
+    color: black;
+}
+section.contact input[type=email]{
+    margin-left: 10px;
+    height: 30px;
+    width: 340px;
+    border-style: none;
+    color: black;
+=======
     padding: 15px;
     width: 90%;
     border-radius: 5px;
     border-style: none;
     outline: none;
+>>>>>>> master
 }
 
 section.contact textarea{
