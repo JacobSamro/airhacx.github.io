@@ -83,17 +83,14 @@ section.contact input[type=text]{
     width: 340px;
     border-radius: 0px;
     border-style: none;
-}
-section.contact form{
-
+    color: black;
 }
 section.contact input[type=email]{
     margin-left: 10px;
     height: 30px;
     width: 340px;
     border-style: none;
-section.contact form{
-
+    color: black;
 }
 section.contact textarea{
     margin-left: 55px;
