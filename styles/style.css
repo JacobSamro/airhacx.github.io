@@ -74,6 +74,7 @@ section.contact{
     border-radius: 5px;
 }
 section.contact form{
+	color: white;
     width: 400px;
     padding: 50px 50px 50px 50px;
 }
