@@ -77,17 +77,18 @@ section.about p{
 }
 section.about .holder{
     margin: 0 auto;    
-    width: 850px;
+    width: 970px;
 }
 section.about .block{
-    width: 200px;
+    width: 280px;
     display: inline-block;
-    background-color: #EEE;
     height: 200px;
-    margin: 0px 40px 0px 40px;
+    margin: 0px 20px 0px 20px;
 }
 section.about .block img{
-    
+    width: 150px;
+    margin: 0 auto;
+    display: block;
 }
 
 section.about .block h2{
