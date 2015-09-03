@@ -116,6 +116,10 @@ section.team .box{
     display: inline-block;
     background-color: #FFF;
 }
+section.team .box img{
+	width: 200px;    
+    height: 200px;
+}
 section.twitter{
     
 }
