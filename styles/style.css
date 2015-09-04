@@ -63,17 +63,24 @@ section.about{
 }
 section.about span{
     display: block;
-
     margin: 0 auto;
     text-align: center;
+    color: #E02929;
+    font-weight: bold;
+}
+section.about h2.heading-tag{
+    border-bottom: 4px solid #BF1B9C;
+    width: 295px;
+    margin: 0 auto;
+    padding: 16px 16px 10px 16px;
+    font-size: 29px;
 }
 section.about h2{
-    text-align: center;
-    
+    text-align: center;    
 }
 section.about p{
     text-align: center;
-    
+    margin-top: 30px;
 }
 section.about .holder{
     margin: 0 auto;    
@@ -107,14 +114,20 @@ section.team h2{
     font-family: 'Segoe UI',arial,sans-serif;
 }
 section.team .inspector{
-    margin: 0 auto;    
-    width: 820px;
+    margin: 0 auto;
+    width: 860px;
 }
 section.team .box{
-    width: 200px;    
-    height: 200px;
+    width: 200px;
+    height: 186px;
     display: inline-block;
     background-color: #FFF;
+    margin: 5px;
+}
+section.team .box img{
+    width: 200px;
+    height: 180px;
+    margin-top: 3px;
 }
 section.twitter{
     
