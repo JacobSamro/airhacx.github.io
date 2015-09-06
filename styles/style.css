@@ -57,6 +57,15 @@ section.top-wrapper h2{
     font-size: 35px;
     right: 8%;
 }
+section.top-wrapper h3{
+    position: absolute;
+    font-weight: 100;
+    top: 35%;
+    color: #425156;
+    font-family: 'Segoe UI',arial,sans-serif;
+    font-size: 27px;
+    right: 21%;
+}
 section.about{
     padding: 20px;
     font-family: 'Segoe UI',arial,sans-serif;
@@ -75,6 +84,14 @@ section.about h2.heading-tag{
     padding: 16px 16px 10px 16px;
     font-size: 29px;
 }
+section.about p.heading-tag{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 37px;
+    line-height: 29px;
+    width: 860px;
+}
+
 section.about h2{
     text-align: center;    
 }
@@ -112,6 +129,7 @@ section.team{
 section.team h2{
     text-align: center;
     font-family: 'Segoe UI',arial,sans-serif;
+    color: #FFF;
 }
 section.team .inspector{
     margin: 0 auto;
