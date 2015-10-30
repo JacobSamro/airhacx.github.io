@@ -5,28 +5,33 @@
         <title>AirHacX - The Ultimate Drone Software and Cloud Service Provider</title>
         <link rel="icon" type="image/x-icon" href="images/favicon.png">
         <link rel="stylesheet" type="text/css" href="styles/normalize.css">
+        <link rel="stylesheet" href="assets/css/timeline.css">
         <link rel="stylesheet" type="text/css" href="styles/style.css">
+
     </head>
     <body>
     <header>
     	<div class="logo"></div>
     	<nav>
     		<ul>
-    			<li><a href="#">Our Team</a></li>
-    			<li><a href="#">Contact us</a></li>
+    			<li><a href="#team">Our Team</a></li>
+                <li><a href="#timeline">Timeline</a></li>
+    			<li><a href="#contact">Contact us</a></li>
     		</ul>
     	</nav>
     </header>
     <section class="top-wrapper">
     <span>
     	<img src="images/header_drone.png">
-    	<h2>The Ultimate Drone Software and Hardware</h2>
+    	<h2>AirHacX does everything to fly and to spy</h2>
+    	<h3>A new initiative in the drone industry</h3>
     </span>
     </section>
     <section class="about">
     	<span>ABOUT</span>
-    	<h2>Hello</h2>
-        <p>Sample Sample Sample</p>
+    	<h2 class="heading-tag">AirHacX - A Drone</h2>
+        <p class="heading-tag">AirHacX is a team of Technology Evangelists  who thinks creative way. We are indulged in making failsafe Drone. AirHacX vision is  to use this drone for Forest/Wildlife conservation, Inspection, Search and Rescue, and Air Photography. It has Autopilot, Smooth and Photography modes to make the user easy to use the drone.</p>
+        <br/><br/>
         <div class="holder">
         	<div class="block">
 	        	<img src="images/cloud.png">
@@ -36,34 +41,54 @@
 	        <div class="block">
 	        	<img src="images/failsafe.png">
 	        	<h2>Failsafe</h2>
-	        	<p>We are using an aditional controller from the normal onboard computer to make it failsafe.</p>
+	        	<p>We are using an additional controller from the normal onboard computer to make it failsafe.</p>
 	        </div>
 	        <div class="block">
 	        	<img src="images/autopilot.png">
 	        	<h2>Autopilot</h2>
-	        	<p>Choose your destination, and it will just fly.The best easiest flying experience ever.</p>
+	        	<p>Choose your destination and relax, airhacx does. The best easiest flying experience ever.</p>
 	        </div>
         </div>
         
     </section>
-    <section class="team">
+
+    <section id="timeline">
+        
+    </section>
+    <section class="team" id="team">
     <h2>THE TEAM</h2>
     <div class="inspector">
-    	<div class="box"><img src="images/man.jpg"></div>
-        <div class="box"><img src="images/man.jpg"></div>
-        <div class="box"><img src="images/man.jpg"></div>
-        <div class="box"><img src="images/man.jpg"></div>
-        <div class="box"><img src="images/man.jpg"></div>
-        <div class="box"><img src="images/man.jpg"></div>
-        <div class="box"><img src="images/man.jpg"></div>
-        <div class="box"><img src="images/man.jpg"></div>
+    	<div class="box">
+    		<img src="images/team/kolluru_gowtham.jpg" />
+    	</div>
+        <div class="box">
+        	<img src="images/team/ilango.jpg" />
+        </div>
+        <div class="box">
+        	<img src="images/team/jacobsamro.jpg" />
+        </div>
+        <div class="box">
+        	<img src="images/team/gowtham_subramanian.jpg" />
+        </div>
+        <div class="box">
+        	<img src="images/team/gunasekar.jpg" />
+        </div>
+        <div class="box">
+        	<img src="images/team/dhinakaran.jpg" />
+        </div>
+        <div class="box">
+        	<img src="images/team/kadhirvel.jpg" />
+        </div>
+        <div class="box">
+        	<img src="images/team/arjun.jpg" />
+        </div>
     </div>
     	
     </section>
 
-    <section class="contact">
+    <section class="contact" id="contact">
     <h2>Say Hello !</h2>
-    <form action="#" method="post">
+    <form action="http://web-handler.airhacx.com/messenger" method="POST">
       <input type="text" name="name" placeHolder="Name" required/><br><br>
       <input type="email" name="email" placeHolder="Email" required/><br><br>
       <textarea name="message" >Message</textarea><br><br>
@@ -75,3 +100,43 @@
     </footer>
     </body>
 </html>
+<script type="text/javascript" src="assets/javascript/timeline-min.js"></script>
+<script>
+this.options = {
+    script_path:                "",
+    // height:                     this._el.container.offsetHeight,
+    // width:                      this._el.container.offsetWidth,
+    scale_factor:               3,              // How many screen widths wide should the timeline be
+    layout:                     "landscape",    // portrait or landscape
+    timenav_position:           "bottom",       // timeline on top or bottom
+    optimal_tick_width:         100,            // optimal distance (in pixels) between ticks on axis
+    base_class:                 "",
+    timenav_height:             150,
+    timenav_height_percentage:  25,             // Overrides timenav height as a percentage of the screen
+    timenav_height_min:         150,            // Minimum timenav height
+    marker_height_min:          30,             // Minimum Marker Height
+    marker_width_min:           100,            // Minimum Marker Width
+    marker_padding:             5,              // Top Bottom Marker Padding
+    start_at_slide:             0,
+    menubar_height:             0,
+    skinny_size:                650,
+    relative_date:              false,          // Use momentjs to show a relative date from the slide.text.date.created_time field
+    use_bc:                     false,          // Use declared suffix on dates earlier than 0
+    // animation
+    duration:                   1000,
+    ease:                       TL.Ease.easeInOutQuint,
+    // interaction
+    dragging:                   true,
+    trackResize:                true,
+    map_type:                   "stamen:toner-lite",
+    slide_padding_lr:           100,            // padding on slide of slide
+    slide_default_fade:         "0%",           // landscape fade
+
+    api_key_flickr:             "",             // Flickr API Key
+    language:                   "en"        
+};
+    var timeline = new TL.Timeline('timeline', 'assets/timeline.json', options);
+    window.onresize = function(event) {
+        timeline.updateDisplay();
+    }
+</script>

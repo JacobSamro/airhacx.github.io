@@ -57,23 +57,47 @@ section.top-wrapper h2{
     font-size: 35px;
     right: 8%;
 }
+section.top-wrapper h3{
+    position: absolute;
+    font-weight: 100;
+    top: 35%;
+    color: #425156;
+    font-family: 'Segoe UI',arial,sans-serif;
+    font-size: 27px;
+    right: 21%;
+}
 section.about{
     padding: 20px;
     font-family: 'Segoe UI',arial,sans-serif;
 }
 section.about span{
     display: block;
-
     margin: 0 auto;
     text-align: center;
+    color: #E02929;
+    font-weight: bold;
 }
-section.about h2{
+section.about h2.heading-tag{
+    border-bottom: 4px solid #BF1B9C;
+    width: 295px;
+    margin: 0 auto;
+    padding: 16px 16px 10px 16px;
+    font-size: 29px;
+}
+section.about p.heading-tag{
     text-align: center;
-    
+    margin: 0 auto;
+    margin-top: 37px;
+    line-height: 29px;
+    width: 860px;
+}
+
+section.about h2{
+    text-align: center;    
 }
 section.about p{
     text-align: center;
-    
+    margin-top: 30px;
 }
 section.about .holder{
     margin: 0 auto;    
@@ -105,20 +129,23 @@ section.team{
 section.team h2{
     text-align: center;
     font-family: 'Segoe UI',arial,sans-serif;
+    color: #FFF;
 }
 section.team .inspector{
-    margin: 0 auto;    
-    width: 820px;
+    margin: 0 auto;
+    width: 860px;
 }
 section.team .box{
-    width: 200px;    
-    height: 200px;
+    width: 200px;
+    height: 186px;
     display: inline-block;
     background-color: #FFF;
+    margin: 5px;
 }
 section.team .box img{
-	width: 200px;    
-    height: 200px;
+    width: 200px;
+    height: 180px;
+    margin-top: 3px;
 }
 section.twitter{
     
